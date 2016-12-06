@@ -1,4 +1,4 @@
-![](images/logo_negro.png)
+![](Proyecto/www/images/logo_negro.png)
 # ESIT ULL Grado de Informatica
 
 ### Equipo de trabajo

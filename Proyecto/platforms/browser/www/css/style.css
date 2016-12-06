@@ -1,0 +1,156 @@
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+#cabecera-dispositivo {
+  width: 100%;
+  height: 0%;
+  background-color: white;
+}
+
+#cabecera {
+  width: 100%;
+  height: 7.7%;
+  background-color: #6F1212;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px 35px;
+  border-bottom: 2px solid black;
+  border-top: 1px solid black;
+}
+
+.contenedor-principal {
+  width: 100%;
+  height: 92%;
+  margin: 0;
+  background-image: url("../images/fondo-negro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenedor-titulo {
+  width: 100%;
+  height: 5%;
+  background-color: #E7DDDD;
+  text-align: center;
+  font-size: 1.3em;
+  color: black;
+  font-family: "fuente-titulo";
+  letter-spacing: 0.07em;
+  display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    font-style: normal;
+    text-shadow: none;
+}
+
+label {
+  text-decoration: none;
+  text-shadow: none;
+  color: #E7DDDD;
+}
+
+/*--------- PANTALLA PRINCIPAL -------------*/
+
+#principal {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+
+.contenedor-pantalla {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/fondo-principal.png");
+  background-size: 100% 95%;
+}
+
+.contenedor-logo {
+  width: 90%;
+  height: 25%;
+  background-image: url("../images/logo.png");
+  background-size: 65% 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.logo {
+  width: 80%;
+  height: 20%;
+  margin: 0 auto;
+  background-image: url("../images/logo.png");
+  background-size: 50% 50%; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contenedor-botones {
+  width: 90%;
+  height: 15%;
+  margin: 0 auto;
+}
+
+#boton-iniciar {
+  border-radius: 0.3em;
+}
+
+#boton-registrar {
+  border-radius: 0.3em;
+}
+
+#footer {
+  width: 100%;
+  height: 5%;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid black;
+  background-image: url("../images/footer_ull.png");
+  background-size: 85px 55%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*------------- PANTALLA INICIO DE SESIÓN ---------------*/
+
+#iniciar-sesion {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+
+#mensaje-olvidaste {
+  text-decoration: none;
+  text-shadow: none;
+  color: #7B94D4;
+}
+
+#boton-iniciar-sesion {
+  background-color: #6F1212;
+  border-radius: 0.2em;
+}
+
+/*------------- PANTALLA REGISTRARSE ---------------*/
+
+#boton-registrarse {
+  background-color: #6F1212;
+  border-radius: 0.2em;
+}
+
+/* ---------- FONTS ---------- */
+
+@font-face {
+    font-family: "fuente-titulo";
+    src: url(../fonts/coolvetica.ttf) format("truetype");
+}
