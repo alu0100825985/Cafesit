@@ -1,4 +1,4 @@
-![](Cafesit/images/logo_negro.png)
+![](Cafesit/images/logo-negro.png)
 # ESIT ULL Grado de Informatica
 
 ### Equipo de trabajo
