@@ -1,10 +1,13 @@
-![](Proyecto/www/images/logo_negro.png)
+![](Cafesit/images/logo_negro.png)
 # ESIT ULL Grado de Informatica
 
 ### Equipo de trabajo
 * Luis David Padilla Martín
 * Omar Adolfo Álvarez Hernández
 * Eduardo Escobar Alberto
+
+### Uso en localhost
+Desde un editor phpmydmin, crear una nueva base de datos con el nombre alu4634. Luego importar el documento del repositorio alu4634.sql.
 
 ### Descripción
 Cafetsi es una aplicación que mediante opiniones y sugerencias de otros usuarios anteriores que hayan consumido en la cafetería de la ESIT, un usuario en concreto que quiera comer en la cafetería de la facultad, pueda introducir en nuestra app alguno de los platos que se ofrezcan ese día, y mediante las opiniones ya habladas, se le recomiende del 1 al 5 (valoración mediante estrellas) consumir ese plato específico. Los usuarios de nuestra app podrán tener un perfil en la misma que además de poder ser recomendados, puedan añadir nuevos comentarios con el fin de alimentar más la base de datos, y con ello poder sacar mejores recomendaciones para los clientes de la cafetería.

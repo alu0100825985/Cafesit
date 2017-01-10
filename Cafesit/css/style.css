@@ -1,0 +1,701 @@
+/* Hoja de estilos principal de la aplicación (excepto index.html) */
+
+/* ------------------ GENERAL ------------------ */
+
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+	overflow: hidden;
+} 
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+.contenedor-pantalla {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+.navbar-header {
+	background-color: #802714;
+	border-color: transparent;
+}
+
+#navbarCollapse {
+	border-color: transparent;
+}
+
+#navbarCollapse ul li a {
+	font-family: fuente-principal;
+}
+
+.contenedor-titulo {
+	width: 40%;
+	height: 50px;
+	margin-left: 2%;
+	font-family: fuente-principal;
+	color: white;
+	font-size: 1.1em;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-contenido {
+	width: 100%;
+	height: 95%;
+	margin: 0;
+	background-color: #F9F7F6;
+	margin-top: -20px;
+	overflow: hidden; 
+}
+
+.cerrar-sesion-collapse {
+	background-color: #E9B4B4;
+}
+
+/* ------------------ PANTALLA REGISTRAR ------------------ */
+
+.contenedor-titulo-registrar {
+	width: 100%;
+	height: 8%;
+	background-color: #802714;
+	font-family: fuente-principal;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-contenido-registrar {
+	width: 100%;
+	height: 92%;
+	margin: 0;
+	background-color: #E5E3E1;
+	padding: 4%;
+}
+
+.contenedor-contenido-registrar form {
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor-input {
+	width: 100%;
+	height: 13%;
+	margin-bottom: 1%;
+}
+
+.contenedor-input input {
+	height: 60%;
+	border-radius: 0.3em;
+	border: 0.25px solid #B7B3AF;
+	font-family: fuente-principal;
+	font-size: 1.1em;
+	color: black;
+	width: 100%;
+	padding-left: 1.5%;
+}
+
+.contenedor-input label {
+	font-family: fuente-principal;
+	color: black;
+	font-size: 1.2em;
+}
+
+.contenedor-input .contenedor-input-nombre {
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.contenedor-input .contenedor-input-nombre input {
+	width: 95%;
+	padding-left: 3.5%;
+	/*background-image: url("../images/nombre.png");
+	background-position: 3%;
+	background-repeat: no-repeat;
+	background-size: 20% 50%;*/
+}
+
+.contenedor-input .contenedor-input-apellidos {
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+
+.contenedor-input .contenedor-input-apellidos input {
+	width: 100%;
+	padding-left: 3%;
+}
+
+.contenedor-input .contenedor-input-sexo {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.contenedor-input .contenedor-input-fecha {
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+
+#registrar {
+	width: 100%;
+	height: 8%;
+	background-color: #802714;
+	margin-top: 10%;
+	font-family: fuente-principal;
+	color: white;
+	border: none;
+	font-size: 1.1em;
+	border-radius: 0.5em;
+	outline: none;
+}
+
+/* ------------------ PANTALLA PERFIL PERSONAL ------------------ */
+
+.contenedor-imagen-cafeteria {
+	width: 100%;
+	height: 35%;
+	border-bottom: 1px solid black;
+	background-image: url("../images/fondo-informatica.png");
+	background-size: 101% 101%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.contenedor-informacion-perfil {
+	width: 100%;
+	height: 48%;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-informacion-perfil .contenedor-perfil {
+	width: 95%;
+	height: 80%;
+	border: 1.5px solid #75706F; 
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	border-radius: 0.3em;
+}
+
+.contenedor-perfil .contenedor-nombre-imagen {
+	width: 100%;
+	height: 30%;
+	margin-top: 6.5%;
+	background-color: #75706F;
+}
+
+.contenedor-nombre-imagen .contenedor-imagen-Hombre {
+	width: 29%;
+	height: 100%;
+	float: left;
+	background-image: url("../images/hombre.png");
+	background-position: center;
+	background-size: 65% 85%;
+	background-repeat: no-repeat;
+} 
+
+.contenedor-nombre-imagen .contenedor-imagen-Mujer {
+	width: 29%;
+	height: 100%;
+	float: left;
+	background-image: url("../images/mujer.png");
+	background-position: center;
+	background-size: 65% 85%;
+	background-repeat: no-repeat;
+} 
+
+.contenedor-nombre-imagen .contenedor-nombre {
+	width: 70%;
+	height: 100%;
+	float: right;
+	font-family: fuente-principal;
+	font-size: 1.5em;
+	text-align: left;
+  	color: white;
+  	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+} 
+
+.contenedor-perfil .contenedor-resto-informacion {
+	width: 100%;
+	height: 60%;
+	font-family: fuente-principal;
+	font-size: 1.2em;
+	text-align: center;
+  	color: black;
+  	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion {
+	width: 75%;
+	height: 100%;
+	margin-left: 25%;
+	background-color: #DAD3D1;
+	border-left: 2.5px solid #75706F;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-correo {
+	width: 100%;
+	height: 25%;
+	margin-top: 3.3%;
+	background-color: #FFFFFF;
+	background-image: url("../images/carta.png");
+	background-position: 5%;
+	background-repeat: no-repeat;
+	background-size: 10% 75%;
+	font-family: fuente-principal;
+	font-size: 1em;
+	color: black;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-telefono {
+	width: 100%;
+	height: 25%;
+	margin-top: 3.3%;
+	background-color: #FFFFFF;
+	background-image: url("../images/telefono-movil.png");
+	background-position: 5%;
+	background-repeat: no-repeat;
+	background-size: 10% 75%;
+	font-family: fuente-principal;
+	font-size: 1em;
+	color: black;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-contraseña {
+	width: 100%;
+	height: 25%;
+	margin-top: 3.3%;
+	background-color: #FFFFFF;
+	background-image: url("../images/candado.png");
+	background-position: 5%;
+	background-repeat: no-repeat;
+	background-size: 10% 75%;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-contraseña .contenedor-input {
+	width: 82%;
+	height: 100%;
+	margin-left: 18%;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-contraseña .contenedor-input-contrasena {
+	width: 55%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-contraseña #nueva-contrasena {
+	width: 99%;
+	height: 80%;
+	padding-left: 1.5%;
+	background-color: #FFFFFF;
+	font-family: fuente-principal;
+	font-size: 0.7em;
+	border: 0.2px solid black;
+	border-radius: 0.3em;
+	color: black;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-contraseña .contenedor-boton-contrasena {
+	width: 43%;
+	height: 100%;
+	float: right;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-perfil .contenedor-resto-informacion .contenedor-informacion .contenedor-informacion-contraseña #cambiar-contrasena {
+	width: 90%;
+	height: 80%;
+	background-color: #DA6C6C;
+	font-family: fuente-principal;
+	font-size: 0.7em;
+	text-align: center;
+	border: transparent;
+	border-radius: 0.3em;
+	outline: none;
+	color: white;
+}
+
+.contenedor-informacion-comentarios {
+	width: 100%;
+	height: 10%;
+	background-color: #802714;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	color: white;
+}
+
+.contenedor-informacion-comentarios .contenedor-informacion {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.contenedor-numero-comentarios {
+	width: 34%;
+	height: 100%;
+	float: left;
+	font-family: fuente-principal;
+	font-size: 4em;
+	text-align: right;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+  	color: white;
+}
+
+.contenedor-fecha-comentario {
+	width: 65%;
+	height: 100%;
+	font-family: fuente-principal;
+	font-size: 0.7em;
+	text-align: left;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+  	color: #DCCCCC;
+}
+
+.contenedor-fecha-comentario text {
+	font-size: 1.9em;
+	color: white;
+}
+
+/* ------------------ PANTALLA VALORACIONES ------------------ */
+
+.contenedor-contenido .contenedor-añadir-comentario {
+	width: 95%;
+	height: 90%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border: 0.2px solid #75706F;
+	font-family: fuente-principal;
+	border-radius: 0.3em;
+	margin-top: 5%;
+}
+
+.contenedor-contenido .contenedor-añadir-comentario .contenedor-titulo-añadir-comentario {
+	width: 100%;
+	height: 7%;
+	background-color: #75706F;
+	border: transparent;
+	background-image: url("../images/mas.png");
+	background-position: 5%;
+	background-size: 6.5% 55%;
+	background-repeat: no-repeat;
+	font-family: fuente-principal;
+	color: white;
+	font-size: 1.2em;
+	margin-bottom: 3%;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-nombres-platos {
+	width: 95%;
+	height: 50%;
+	border: 1px solid black;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+
+table.tabla-platos {
+  font-family: fuente-principal;
+  background-color: white;
+  font-size: 9pt;
+  width: 100.2%;
+  text-align: left;
+  height: 50px;
+  border: transparent;
+}
+
+table.tabla-platos thead tr th, table .tabla-platos tfoot tr th {
+  background-color: #BF6E6E;
+  border: 1px solid #484747;
+  font-size: 11pt;
+  padding: 4px;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+table.tabla-platos tbody td {
+  color: black;
+  padding: 4px;
+  background-color: white;
+  vertical-align: top;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+table.tabla-platos #fila-fecha-actual td {
+  background-color: #CCEBFA;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.contenedor-enviar-comentario {
+	width: 95%;
+	height: 37%;
+	border: 0.2px solid #75706F;
+	background-color: #D5D3D3;
+	margin: 0 auto;
+}
+
+.contenedor-titulo-enviar-comentario {
+	width: 100%;
+	height: 18%;
+	border-bottom: 0.2px solid black;
+	background-color: #BF6E6E;
+	font-family: fuente-principal;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+	color: white;
+}
+
+.contenedor-plato-fecha {
+	width: 100%;
+	height: 20%;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-plato-fecha .contenedor-input {
+	width: 95%;
+	height: 75%;
+	margin: 0 auto;
+}
+
+.contenedor-plato-fecha .contenedor-input #nombre-plato {
+	width: 56%;
+	height: 100%;
+	border-radius: 0.3em;
+	border: 0.2px solid #A1A09C;
+	background-color: #FFFFFF;
+	font-family: fuente-principal;
+	font-size: 1em;
+	color: black;
+	padding-left: 2%;
+	outline: none;
+}
+
+.contenedor-plato-fecha .contenedor-input #fecha-plato {
+	width: 43%;
+	height: 100%;
+	border-radius: 0.3em;
+	border: 0.2px solid #A1A09C;
+	background-color: #FFFFFF;
+	font-family: fuente-principal;
+	font-size: 1em;
+	color: black;
+	padding-left: 2%;
+	outline: none;
+}
+
+.contenedor-comentario {
+	width: 100%;
+	height: 35%;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-comentario .contenedor-textarea {
+	width: 95%;
+	height: 85%;
+	margin: 0 auto;
+}
+
+.contenedor-comentario .contenedor-textarea #comentario-plato {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3em;
+	border: 0.2px solid #A1A09C;
+	background-color: #FFFFFF;	
+	font-family: fuente-principal;
+	font-size: 1em;
+	color: black;
+	padding-left: 2%;
+	outline: none;
+	resize: none;
+	padding-right: 2%;
+}
+
+.contenedor-estrellas-enviar {
+	width: 100%;
+	height: 27%;
+}
+
+.contenedor-estrellas-enviar .contenedor-estrellas {
+	width: 39%;
+	height: 100%;
+	float: left;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-estrellas-enviar .contenedor-estrellas .span-estrellas {
+	width: 100%;
+	height: 55%;
+	margin: 0 auto;
+	padding-right: 10%;
+}
+
+.starRating:not(old) {
+  display        : inline-block;
+  width          : 100%;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background      : url('../images/estrella-off.png');
+  background-size : contain;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background      : url('../images/estrella-on.png');
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+
+.contenedor-boton-enviar-opinion {
+	width: 60%;
+	height: 100%;
+	float: right;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+}
+
+.contenedor-boton-enviar-opinion .contenedor-input {
+	width: 88%;
+	height: 65%;
+	margin: 0 auto;
+}
+
+.contenedor-boton-enviar-opinion .contenedor-input #enviar-comentario {
+	width: 100%;
+	height: 100%;
+	background-color: #BF6E6E;
+	border: transparent;
+	border-radius: 0.3em;
+	font-family: fuente-principal;
+	color: white;
+	font-size: 0.9em;
+	outline: none;
+}
+
+.contenedor-contenido .contenedor-valoraciones-usuarios {
+	width: 95%;
+	height: 80%;
+	margin: 0 auto;
+	margin-top: 5%;
+	border-radius: 0.3em;
+	border: 0.2px solid #75706F; 
+	background-color: white;
+}
+
+.contenedor-valoraciones-usuarios .contenedor-titulo-valoraciones {
+	width: 100%;
+	height: 8%;
+	border-bottom: 0.2px solid black;
+	background-color: #75706F;
+	font-family: fuente-principal;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+	color: white;
+	font-size: 1.1em;
+}
+
+/* ------------------ FONTS ------------------ */
+
+@font-face {
+    font-family: fuente-principal;
+    src: url(../fonts/Ubuntu.ttf);
+} 
