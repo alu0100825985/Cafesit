@@ -28,7 +28,7 @@
             </button>
             <div class="contenedor-titulo">RECOMENDACIÓN</div>
         </div>
- 
+
         <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="perfil_personal.php"><img src="images/usuario.png" />&nbsp Perfil personal</a></li>
@@ -38,7 +38,27 @@
             </ul>
         </div>
       </nav> <!-- FIN BARRA DE NAVEGACIÓN SUPERIOR -->
-      <div class="contenedor-contenido"></div>
+      <div class="contenedor-contenido">
+        <div id="div1"></div>
+
+        <script>
+
+          setInterval(function(){
+            $("#div1").load("carga.html");
+            cargarDatos();
+          }, 16);
+
+          function cargarDatos() {
+            document.getElementById("campo1").innerText = Obstaculos;
+            document.getElementById("campo2").innerText = DistanciaObs;
+          }
+
+        </script>
+
+        <div id="campo1"></div>
+        <div id="campo2"></div>
+
+      </div>
     </div>
   </body>
 </html>
